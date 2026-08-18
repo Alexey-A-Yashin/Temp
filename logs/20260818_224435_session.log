@@ -1,0 +1,157 @@
+﻿ColoringBook — журнал запуска 2026-08-18 22:44:35
+[bootstrap] каталог логов: D:/Godot/ColoringBook/logs
+PlantCatalog ready: 9 variants x kinds
+=== ColoringBook Bootstrap | BUILD STAMP: 2026-08-18-V359 (наклонная засыпка, дренаж по сетке рельефа, острова возвращены)
+[shaders] res://assets/shaders/terrain.gdshader — ок
+[shaders] res://assets/shaders/water.gdshader — ок
+[shaders] res://assets/shaders/foliage.gdshader — ок
+[shaders] res://assets/shaders/impostor.gdshader — ок
+[shaders] res://assets/shaders/sketch_id.gdshader — ок
+[shaders] res://assets/shaders/sketch_depth.gdshader — ок
+[shaders] res://assets/shaders/sketch_normal.gdshader — ок
+[bootstrap] MaxFps=60, VSync=Disabled
+[устройство] стол, поле полное, уровень при запуске, журнал в res://logs, ядер 8
+[bootstrap] StartupMode = Level
+[разведка] поле 241x241 за 10850 мс, место (2,4, 54,7) км от середины территории
+[нрав] поднятие 7,8 м (разброс 2,38, период 17 км), врез 31, осыпание 0,014, итераций 365
+[фон-эрозия] поле 961x961 за 189112 мс
+[высоты] размах поля 5932 м, дно 800 м, верх 6732 м
+[озёра] залитых ячеек 53299 из 923521 (5,8% поля)
+[плитка] 5 км, ячейка 30 м, за 6369 мс
+[маршруты] окно 20 км: опор 87, рёбер 51, сеть 116,1 км, за 3042 мс
+[пояса] лес 0,281, редколесье 0,429, альпика 0,506, осыпь 0,551, скала 0,602, снег 0,652
+[пояса] пределы выборки 73,6..664,9 ед (800..6713 м), смещение 6,4 ед
+[фон-материал] шейдер рельефа, размах высот 80,0..671,3 ед
+[рельеф] средний уклон 13,0°, p95 33,1°, перепад 5604 м, круче 35° 4%, доля дна 34%, шпилей 114  <-- ПОЛОГО  <-- ШПИЛИ
+[старт] пояс Snow, высота 5094 м
+[старт] опора сети: вид 75%, (-36, -468), сток 1, в 4,7 км от середины поля при пределе 172,8; опор всего 87
+[дыра] высоты в точке старта: поле 5094 м, меш 5094 м, разница 0 м; накрывает кольцо 0, ячейка 120 м
+[дыра] камера обхода садится на высоту ПОЛЯ, а видит меш: камера НАД поверхностью на 0 м
+[дыра] треугольников рельефа вокруг точки: в 100 м — 6, в 500 м — 108, в 2000 м — 1740
+[дыра] место разведки (2,4, 54,7) км от середины территории; игрок в 4694 м от середины ПОЛЯ
+[дыра] половины колец, км: 0:57,6
+[покров] по площади (13271 км²): Water 7,0%, Grassland 20,8%, Forest 19,7%, Shrubland 14,8%, Alpine 11,3%, Scree 10,5%, Rock 8,0%, Snow 7,8%
+[вода] ячеек покрова по кольцам: 120м:64849
+[дренаж] сетка 961, область 115 км, 1439 мс
+[рельеф-отчёт] D:/Godot/ColoringBook/logs\20260818_224840_terrain.json
+[рельеф-сетки] D:/Godot/ColoringBook/logs\20260818_224840_terrain.bin
+[журнал] D:/Godot/ColoringBook/logs\20260818_224435_session.log
+[фон-щели] одиночных рёбер 3840, из них на внешнем крае есть; радиусы от 5760 до 5760 ед (границы колец: 5760)
+[фон-меш] рельеф: граней вверх 1843200, вниз 0 (0,0%), вырожденных 0 | расхождение на стыке колец 0,0 м
+[фон-пандус] наибольший уклон переходной полосы 0,0°, ширина полосы 8 ячеек (960..480 м)
+[фон] колец 1, шаг 120..120 м, область 115 км, четырёхугольников 921600, треугольников 1843200
+[растительность] ОТКЛЮЧЕНА (LevelView3D.VegetationOn = false)
+[время] рельеф и меш: 244500 мс
+--- Seed 42 | Season Summer ---
+уровень из колец, сид 42
+[камера] обзор на (-36, -468), наклон 35°, удаление 2,2 км
+[bootstrap] mode=Level (main scene). P = switch to plant gallery.
+[bootstrap] galleryActive=False regions=0 | terrain: mesh=null visible=True | rivers: mesh=null visible=True | water: mesh=null visible=True | vegRoot: children=0 visible=True | galleryRoot=none
+[PERF] fps=60,0 frame=3,90ms draw=7 prim=1844364 obj=583 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,94ms draw=7 prim=1844380 obj=591 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,57ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,84ms draw=7 prim=1844368 obj=585 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,71ms draw=7 prim=1844368 obj=585 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,51ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,84ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,79ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,21ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,59ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,83ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,07ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,02ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,16ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,86ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=57,0 frame=17,47ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,29ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,97ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,82ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,81ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,94ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,82ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,72ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,91ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=61,0 frame=5,16ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,01ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,89ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,01ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,96ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=54,0 frame=5,77ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,82ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,16ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,88ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,75ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,85ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,81ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,96ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,09ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,03ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,81ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,78ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=48,72ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,51ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=11,49ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,27ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,09ms draw=7 prim=1844372 obj=587 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=57,0 frame=3,23ms draw=7 prim=1844376 obj=589 vram=385,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[обход] 18 поз: весь уровень, четверти, глаз из (-36, -468), шар
+[telemetry] обход уровня записан: D:/Godot/ColoringBook/logs\20260818_195120_seed42_sweep.json
+[обход] 18 поз: весь уровень, четверти, глаз из (-36, -468), шар
+[кадр] весь уровень сверху: неба 54%, пятен 5, крупнейшее 55%, ПУСТОТЫ 47% (в нижней половине 46%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход весь уровень сверху: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] весь уровень косо 0°: неба 48%, пятен 7, крупнейшее 55%, ПУСТОТЫ 40% (в нижней половине 5%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход весь уровень косо 0°: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] весь уровень косо 120°: неба 46%, пятен 8, крупнейшее 44%, ПУСТОТЫ 38% (в нижней половине 3%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход весь уровень косо 120°: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] весь уровень косо 240°: неба 46%, пятен 9, крупнейшее 51%, ПУСТОТЫ 38% (в нижней половине 4%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход весь уровень косо 240°: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] четверть 1: неба 35%, пятен 12, крупнейшее 27%, ПУСТОТЫ 28% (в нижней половине 1%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход четверть 1: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] четверть 2: неба 46%, пятен 9, крупнейшее 33%, ПУСТОТЫ 31% (в нижней половине 3%)
+[PERF] fps=4,0 frame=1217,56ms draw=7 prim=1844384 obj=593 vram=421,7MB tex=112,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход четверть 2: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] четверть 3: неба 39%, пятен 5, крупнейшее 61%, ПУСТОТЫ 37% (в нижней половине 4%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход четверть 3: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] четверть 4: неба 34%, пятен 5, крупнейшее 61%, ПУСТОТЫ 33% (в нижней половине 0%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход четверть 4: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] глаз 0°: неба 98%, пятен 4, крупнейшее 33%, ПУСТОТЫ 35% (в нижней половине 0%)
+[sketch] шаблон: областей 7, из них удобных без увеличения 0, крупных заливок 5, непригодных 0; самая большая занимает 39% кадра, чернил 1,8%
+[sketch] обход глаз 0°: шаблон: областей 7, из них удобных без увеличения 0, крупных заливок 5, непригодных 0; самая большая занимает 39% кадра, чернил 1,8%
+[кадр] глаз 45°: неба 100%, пятен 7, крупнейшее 30%, ПУСТОТЫ 31% (в нижней половине 0%)
+[sketch] шаблон: областей 8, из них удобных без увеличения 1, крупных заливок 4, непригодных 0; самая большая занимает 34% кадра, чернил 1,5%
+[sketch] обход глаз 45°: шаблон: областей 8, из них удобных без увеличения 1, крупных заливок 4, непригодных 0; самая большая занимает 34% кадра, чернил 1,5%
+[кадр] глаз 90°: неба 100%, пятен 5, крупнейшее 33%, ПУСТОТЫ 30% (в нижней половине 0%)
+[sketch] шаблон: областей 4, из них удобных без увеличения 1, крупных заливок 3, непригодных 0; самая большая занимает 49% кадра, чернил 0,9%
+[sketch] обход глаз 90°: шаблон: областей 4, из них удобных без увеличения 1, крупных заливок 3, непригодных 0; самая большая занимает 49% кадра, чернил 0,9%
+[кадр] глаз 135°: неба 100%, пятен 5, крупнейшее 34%, ПУСТОТЫ 35% (в нижней половине 0%)
+[sketch] шаблон: областей 4, из них удобных без увеличения 1, крупных заливок 3, непригодных 0; самая большая занимает 50% кадра, чернил 1,2%
+[sketch] обход глаз 135°: шаблон: областей 4, из них удобных без увеличения 1, крупных заливок 3, непригодных 0; самая большая занимает 50% кадра, чернил 1,2%
+[кадр] глаз 180°: неба 99%, пятен 5, крупнейшее 37%, ПУСТОТЫ 39% (в нижней половине 0%)
+[sketch] шаблон: областей 9, из них удобных без увеличения 2, крупных заливок 4, непригодных 0; самая большая занимает 40% кадра, чернил 1,7%
+[sketch] обход глаз 180°: шаблон: областей 9, из них удобных без увеличения 2, крупных заливок 4, непригодных 0; самая большая занимает 40% кадра, чернил 1,7%
+[кадр] глаз 225°: неба 98%, пятен 6, крупнейшее 40%, ПУСТОТЫ 42% (в нижней половине 0%)
+[sketch] шаблон: областей 15, из них удобных без увеличения 8, крупных заливок 5, непригодных 0; самая большая занимает 44% кадра, чернил 2,0%
+[sketch] обход глаз 225°: шаблон: областей 15, из них удобных без увеличения 8, крупных заливок 5, непригодных 0; самая большая занимает 44% кадра, чернил 2,0%
+[кадр] глаз 270°: неба 97%, пятен 5, крупнейшее 47%, ПУСТОТЫ 46% (в нижней половине 0%)
+[PERF] fps=4,0 frame=1430,18ms draw=7 prim=1844384 obj=593 vram=405,6MB tex=96,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[sketch] шаблон: областей 13, из них удобных без увеличения 7, крупных заливок 4, непригодных 0; самая большая занимает 49% кадра, чернил 1,8%
+[sketch] обход глаз 270°: шаблон: областей 13, из них удобных без увеличения 7, крупных заливок 4, непригодных 0; самая большая занимает 49% кадра, чернил 1,8%
+[кадр] глаз 315°: неба 98%, пятен 6, крупнейшее 47%, ПУСТОТЫ 43% (в нижней половине 0%)
+[sketch] шаблон: областей 12, из них удобных без увеличения 6, крупных заливок 3, непригодных 0; самая большая занимает 48% кадра, чернил 1,9%
+[sketch] обход глаз 315°: шаблон: областей 12, из них удобных без увеличения 6, крупных заливок 3, непригодных 0; самая большая занимает 48% кадра, чернил 1,9%
+[кадр] шар 0°: неба 71%, пятен 5, крупнейшее 33%, ПУСТОТЫ 35% (в нижней половине 0%)
+[sketch] шаблон: областей 4, из них удобных без увеличения 2, крупных заливок 2, непригодных 0; самая большая занимает 51% кадра, чернил 0,9%
+[sketch] обход шар 0°: шаблон: областей 4, из них удобных без увеличения 2, крупных заливок 2, непригодных 0; самая большая занимает 51% кадра, чернил 0,9%
+[кадр] шар 180°: неба 88%, пятен 5, крупнейшее 33%, ПУСТОТЫ 33% (в нижней половине 0%)
+[sketch] шаблон: областей 3, из них удобных без увеличения 0, крупных заливок 2, непригодных 0; самая большая занимает 59% кадра, чернил 0,5%
+[sketch] обход шар 180°: шаблон: областей 3, из них удобных без увеличения 0, крупных заливок 2, непригодных 0; самая большая занимает 59% кадра, чернил 0,5%
+[telemetry] снимков сохранено: 18 в D:/Godot/ColoringBook/logs\20260818_195120_seed42_sweep_shots
+[PERF] fps=52,0 frame=18,15ms draw=7 prim=1844380 obj=591 vram=391,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
