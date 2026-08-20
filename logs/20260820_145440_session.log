@@ -1,0 +1,324 @@
+﻿ColoringBook — журнал запуска 2026-08-20 14:54:40
+[bootstrap] каталог логов: D:/Godot/ColoringBook/logs
+PlantCatalog ready: 9 variants x kinds
+=== ColoringBook Bootstrap | BUILD STAMP: 2026-08-19-V367 (пульт настроек: рельеф, вода, покров — три записи, загрузка из json)
+[shaders] res://assets/shaders/terrain.gdshader — ок
+[shaders] res://assets/shaders/water.gdshader — ок
+[shaders] res://assets/shaders/foliage.gdshader — ок
+[shaders] res://assets/shaders/impostor.gdshader — ок
+[shaders] res://assets/shaders/sketch_id.gdshader — ок
+[shaders] res://assets/shaders/sketch_depth.gdshader — ок
+[shaders] res://assets/shaders/sketch_normal.gdshader — ок
+[bootstrap] MaxFps=60, VSync=Disabled
+[устройство] стол, поле полное, уровень при запуске, журнал в res://logs, ядер 8
+[bootstrap] StartupMode = Level
+[разведка] поле 241x241 за 21375 мс, место (10,1, -51,8) км от середины территории
+[нрав] поднятие 8,7 м (разброс 1,78, период 17 км), врез 22, осыпание 0,007, итераций 905
+[фон-эрозия] поле 961x961 за 394808 мс
+[высоты] размах поля 8865 м, дно 800 м, верх 10048 м
+[высоты] p10 2071 м, медиана 3576, p90 4790, разница p10-p90 2719 м (в Альпах 2000-2500)
+[вода] 2,2% площади (норма Альп 1.5-6)
+[озёра] 27 крупнее 0.05 км², крупнейшее 76,6 км²
+[острова] 0
+[плитка] 5 км, ячейка 30 м, за 6680 мс
+[маршруты] окно 20 км: опор 102, рёбер 44, сеть 85,3 км, за 2092 мс
+[пояса] лес 0,360, редколесье 0,463, альпика 0,534, осыпь 0,579, скала 0,631, снег 0,686
+[пояса] пределы выборки 118,6..1003,1 ед (1184..10030 м), смещение -0,1 ед
+[фон-материал] шейдер рельефа, размах высот 118,4..1003,0 ед
+[рельеф вокруг игрока] средний уклон 13,7°, p95 32,8°, перепад 5838 м, круче 35° 4%, доля дна 24%, шпилей 273  <-- ПОЛОГО  <-- ШПИЛИ
+[рельеф вся территория] средний уклон 13,7°, p95 32,8°, перепад 5838 м, круче 35° 4%, доля дна 24%, шпилей 273  <-- ПОЛОГО  <-- ШПИЛИ
+[старт] пояс Forest, высота 5141 м
+[старт] опора сети: вид 82%, (-216, -873), сток 1, в 9,0 км от середины поля при пределе 172,8; опор всего 102
+[дыра] высоты в точке старта: поле 5141 м, меш 7599 м, разница -2458 м; накрывает кольцо 0, ячейка 120 м
+[дыра] камера обхода садится на высоту ПОЛЯ, а видит меш: камера ПОД ПОВЕРХНОСТЬЮ на 2458 м
+[дыра] треугольников рельефа вокруг точки: в 100 м — 5, в 500 м — 110, в 2000 м — 1741
+[дыра] место разведки (10,1, -51,8) км от середины территории; игрок в 8993 м от середины ПОЛЯ
+[дыра] половины колец, км: 0:57,6
+[покров] по площади (13271 км²): Water 8,0%, Grassland 21,4%, Forest 16,4%, Shrubland 11,8%, Alpine 7,5%, Scree 13,1%, Rock 15,0%, Snow 6,9%
+[вода] ячеек покрова по кольцам: 120м:73536
+[дренаж] сетка 961, область 115 км, 2001 мс
+[рельеф-отчёт] D:/Godot/ColoringBook/logs\20260820_150215_terrain.json
+[рельеф-сетки] D:/Godot/ColoringBook/logs\20260820_150215_terrain.bin
+[журнал] D:/Godot/ColoringBook/logs\20260820_145440_session.log
+[фон-щели] одиночных рёбер 3840, из них на внешнем крае есть; радиусы от 5760 до 5760 ед (границы колец: 5760)
+[фон-меш] рельеф: граней вверх 1843200, вниз 0 (0,0%), вырожденных 0 | расхождение на стыке колец 0,0 м
+[фон-пандус] наибольший уклон переходной полосы 0,0°, ширина полосы 8 ячеек (960..480 м)
+[фон] колец 1, шаг 120..120 м, область 115 км, четырёхугольников 921600, треугольников 1843200
+[растительность] ОТКЛЮЧЕНА (LevelView3D.VegetationOn = false)
+[время] рельеф и меш: 453611 мс
+--- Seed 42 | Season Summer ---
+уровень из колец, сид 42
+[камера] обзор на (-216, -873), наклон 35°, удаление 2,2 км
+[bootstrap] mode=Level (main scene). P = switch to plant gallery.
+[bootstrap] galleryActive=False regions=0 | terrain: mesh=null visible=True | rivers: mesh=null visible=True | water: mesh=null visible=True | vegRoot: children=0 visible=True | galleryRoot=none
+[PERF] fps=60,0 frame=2,47ms draw=7 prim=1844384 obj=593 vram=387,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,27ms draw=7 prim=1844384 obj=593 vram=387,1MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[обход] 18 поз: весь уровень, четверти, глаз из (-216, -873), шар
+[telemetry] обход уровня записан: D:/Godot/ColoringBook/logs\20260820_120226_seed42_sweep.json
+[обход] 18 поз: весь уровень, четверти, глаз из (-216, -873), шар
+[кадр] весь уровень сверху: неба 50%, пятен 8, крупнейшее 31%, ПУСТОТЫ 44% (в нижней половине 44%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход весь уровень сверху: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] весь уровень косо 0°: неба 40%, пятен 6, крупнейшее 47%, ПУСТОТЫ 37% (в нижней половине 3%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход весь уровень косо 0°: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] весь уровень косо 120°: неба 41%, пятен 6, крупнейшее 55%, ПУСТОТЫ 36% (в нижней половине 2%)
+[PERF] fps=4,0 frame=1224,03ms draw=8 prim=3687592 obj=598 vram=424,6MB tex=112,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход весь уровень косо 120°: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] весь уровень косо 240°: неба 50%, пятен 8, крупнейшее 46%, ПУСТОТЫ 36% (в нижней половине 2%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход весь уровень косо 240°: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] четверть 1: неба 31%, пятен 9, крупнейшее 29%, ПУСТОТЫ 25% (в нижней половине 0%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход четверть 1: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] четверть 2: неба 31%, пятен 6, крупнейшее 29%, ПУСТОТЫ 26% (в нижней половине 0%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход четверть 2: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] четверть 3: неба 38%, пятен 6, крупнейшее 50%, ПУСТОТЫ 34% (в нижней половине 4%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход четверть 3: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] четверть 4: неба 37%, пятен 11, крупнейшее 58%, ПУСТОТЫ 30% (в нижней половине 0%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[sketch] обход четверть 4: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
+[кадр] глаз 0°: неба 49%, пятен 6, крупнейшее 51%, ПУСТОТЫ 51% (в нижней половине 99%)
+[sketch] шаблон: областей 2, из них удобных без увеличения 0, крупных заливок 2, непригодных 0; самая большая занимает 78% кадра, чернил 0,6%
+[sketch] обход глаз 0°: шаблон: областей 2, из них удобных без увеличения 0, крупных заливок 2, непригодных 0; самая большая занимает 78% кадра, чернил 0,6%
+[кадр] глаз 45°: неба 51%, пятен 4, крупнейшее 52%, ПУСТОТЫ 52% (в нижней половине 100%)
+[sketch] шаблон: областей 2, из них удобных без увеличения 0, крупных заливок 2, непригодных 0; самая большая занимает 81% кадра, чернил 0,5%
+[sketch] обход глаз 45°: шаблон: областей 2, из них удобных без увеличения 0, крупных заливок 2, непригодных 0; самая большая занимает 81% кадра, чернил 0,5%
+[кадр] глаз 90°: неба 52%, пятен 5, крупнейшее 51%, ПУСТОТЫ 51% (в нижней половине 99%)
+[sketch] шаблон: областей 4, из них удобных без увеличения 0, крупных заливок 3, непригодных 0; самая большая занимает 84% кадра, чернил 0,5%
+[sketch] обход глаз 90°: шаблон: областей 4, из них удобных без увеличения 0, крупных заливок 3, непригодных 0; самая большая занимает 84% кадра, чернил 0,5%
+[кадр] глаз 135°: неба 51%, пятен 5, крупнейшее 51%, ПУСТОТЫ 51% (в нижней половине 98%)
+[PERF] fps=5,0 frame=1815,46ms draw=8 prim=3687592 obj=598 vram=423,7MB tex=112,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[sketch] шаблон: областей 4, из них удобных без увеличения 1, крупных заливок 3, непригодных 0; самая большая занимает 79% кадра, чернил 0,7%
+[sketch] обход глаз 135°: шаблон: областей 4, из них удобных без увеличения 1, крупных заливок 3, непригодных 0; самая большая занимает 79% кадра, чернил 0,7%
+[кадр] глаз 180°: неба 53%, пятен 5, крупнейшее 49%, ПУСТОТЫ 49% (в нижней половине 97%)
+[sketch] шаблон: областей 3, из них удобных без увеличения 1, крупных заливок 2, непригодных 0; самая большая занимает 75% кадра, чернил 0,6%
+[sketch] обход глаз 180°: шаблон: областей 3, из них удобных без увеличения 1, крупных заливок 2, непригодных 0; самая большая занимает 75% кадра, чернил 0,6%
+[кадр] глаз 225°: неба 49%, пятен 7, крупнейшее 56%, ПУСТОТЫ 48% (в нижней половине 96%)
+[sketch] шаблон: областей 3, из них удобных без увеличения 0, крупных заливок 3, непригодных 0; самая большая занимает 66% кадра, чернил 0,6%
+[sketch] обход глаз 225°: шаблон: областей 3, из них удобных без увеличения 0, крупных заливок 3, непригодных 0; самая большая занимает 66% кадра, чернил 0,6%
+[кадр] глаз 270°: неба 52%, пятен 6, крупнейшее 55%, ПУСТОТЫ 49% (в нижней половине 97%)
+[sketch] шаблон: областей 2, из них удобных без увеличения 0, крупных заливок 2, непригодных 0; самая большая занимает 69% кадра, чернил 0,5%
+[sketch] обход глаз 270°: шаблон: областей 2, из них удобных без увеличения 0, крупных заливок 2, непригодных 0; самая большая занимает 69% кадра, чернил 0,5%
+[кадр] глаз 315°: неба 49%, пятен 5, крупнейшее 53%, ПУСТОТЫ 50% (в нижней половине 98%)
+[sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 99% кадра, чернил 0,6%
+[sketch] обход глаз 315°: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 99% кадра, чернил 0,6%
+[кадр] шар 0°: неба 61%, пятен 4, крупнейшее 62%, ПУСТОТЫ 62% (в нижней половине 100%)
+[sketch] шаблон: областей 2, из них удобных без увеличения 0, крупных заливок 2, непригодных 0; самая большая занимает 83% кадра, чернил 0,6%
+[sketch] обход шар 0°: шаблон: областей 2, из них удобных без увеличения 0, крупных заливок 2, непригодных 0; самая большая занимает 83% кадра, чернил 0,6%
+[кадр] шар 180°: неба 62%, пятен 5, крупнейшее 59%, ПУСТОТЫ 60% (в нижней половине 100%)
+[sketch] шаблон: областей 4, из них удобных без увеличения 0, крупных заливок 3, непригодных 0; самая большая занимает 77% кадра, чернил 0,7%
+[sketch] обход шар 180°: шаблон: областей 4, из них удобных без увеличения 0, крупных заливок 3, непригодных 0; самая большая занимает 77% кадра, чернил 0,7%
+[telemetry] снимков сохранено: 18 в D:/Godot/ColoringBook/logs\20260820_120226_seed42_sweep_shots
+[PERF] fps=31,0 frame=4,23ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,75ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,41ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,90ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,07ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,84ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,54ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,94ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,77ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,25ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,40ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,87ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,47ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,14ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,98ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,19ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,47ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,32ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,15ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,12ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,66ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=6,24ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,54ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,23ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,51ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,10ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,05ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,64ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,15ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,71ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,56ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,15ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,09ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,48ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,38ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,93ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,31ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,23ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,97ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,15ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,93ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,97ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,45ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,78ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,32ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,45ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,49ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,94ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,76ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,20ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,81ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,44ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,06ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,47ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,23ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,60ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=6,66ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,85ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,47ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,24ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,78ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,56ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,92ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,69ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,53ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,60ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,60ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,83ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,80ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,73ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,12ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,42ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,53ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,53ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,59ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,49ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,70ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,79ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,41ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,98ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,26ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=5,02ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,75ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,07ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,86ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,14ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,96ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,86ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,27ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,75ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=1,80ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,81ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,47ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,55ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,38ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=5,50ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,36ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,71ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,15ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,33ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,68ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,86ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,93ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,55ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,84ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,47ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,43ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,14ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,61ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,83ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,51ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,85ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,83ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,44ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,49ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,56ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,37ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=5,48ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,00ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,58ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,89ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=15,33ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,34ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,86ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,60ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,50ms draw=7 prim=1844384 obj=593 vram=393,5MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,68ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,18ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,56ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,03ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,49ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,71ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,66ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,12ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,81ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,14ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,14ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,15ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,50ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,18ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,90ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,38ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,76ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,57ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,61ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,84ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,28ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,54ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,56ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,56ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,48ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,84ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,40ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,17ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,63ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,65ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,85ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,73ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,36ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,07ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,53ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,13ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,34ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,42ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,54ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,07ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,23ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,84ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,23ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,05ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,80ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,03ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,94ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,95ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,64ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,13ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,49ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,78ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,28ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,45ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,58ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,57ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,79ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,43ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,15ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,48ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,02ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,70ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=7,59ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,04ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,95ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,90ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,82ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,27ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,68ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,68ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,58ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,21ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,78ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,86ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,39ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,98ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,31ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,27ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,33ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,41ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=3,35ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,69ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,51ms draw=7 prim=1844384 obj=593 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
