@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccxgyofru8fug"
-path="res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"
+uid="uid://pxkm8huai2ud"
+path="res://.godot/imported/005_четверть_2.png-41789ccf61d0857053bb2a9775c11a86.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://logs/Снимок 1.PNG"
-dest_files=["res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"]
+source_file="res://logs/20260821_090858_seed42_sweep_shots/005_четверть_2.png"
+dest_files=["res://.godot/imported/005_четверть_2.png-41789ccf61d0857053bb2a9775c11a86.ctex"]
 
 [params]
 

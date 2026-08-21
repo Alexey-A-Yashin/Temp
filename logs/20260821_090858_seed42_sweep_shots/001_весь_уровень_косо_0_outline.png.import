@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccxgyofru8fug"
-path="res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"
+uid="uid://66nkuh0iymos"
+path="res://.godot/imported/001_весь_уровень_косо_0_outline.png-7e3964f2e09884dc146e7b93bcc12203.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://logs/Снимок 1.PNG"
-dest_files=["res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"]
+source_file="res://logs/20260821_090858_seed42_sweep_shots/001_весь_уровень_косо_0_outline.png"
+dest_files=["res://.godot/imported/001_весь_уровень_косо_0_outline.png-7e3964f2e09884dc146e7b93bcc12203.ctex"]
 
 [params]
 

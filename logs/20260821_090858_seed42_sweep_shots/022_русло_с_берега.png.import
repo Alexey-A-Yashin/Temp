@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccxgyofru8fug"
-path="res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"
+uid="uid://di22opuwb5tes"
+path="res://.godot/imported/022_русло_с_берега.png-a93c70fbb37fee3f3cd1586c514b8e29.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://logs/Снимок 1.PNG"
-dest_files=["res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"]
+source_file="res://logs/20260821_090858_seed42_sweep_shots/022_русло_с_берега.png"
+dest_files=["res://.godot/imported/022_русло_с_берега.png-a93c70fbb37fee3f3cd1586c514b8e29.ctex"]
 
 [params]
 

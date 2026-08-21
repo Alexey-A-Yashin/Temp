@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccxgyofru8fug"
-path="res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"
+uid="uid://bsmerlbdfph0u"
+path="res://.godot/imported/021_русло_сверху_outline.png-1f20b2caaddfab3c27f53f5969fcdfc5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://logs/Снимок 1.PNG"
-dest_files=["res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"]
+source_file="res://logs/20260821_090858_seed42_sweep_shots/021_русло_сверху_outline.png"
+dest_files=["res://.godot/imported/021_русло_сверху_outline.png-1f20b2caaddfab3c27f53f5969fcdfc5.ctex"]
 
 [params]
 

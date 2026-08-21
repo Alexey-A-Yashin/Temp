@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccxgyofru8fug"
-path="res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"
+uid="uid://hsokvujeppoi"
+path="res://.godot/imported/018_озеро_с_берега_0_outline.png-8c92ad5238ec2e3c39f7412340929830.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://logs/Снимок 1.PNG"
-dest_files=["res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"]
+source_file="res://logs/20260821_090858_seed42_sweep_shots/018_озеро_с_берега_0_outline.png"
+dest_files=["res://.godot/imported/018_озеро_с_берега_0_outline.png-8c92ad5238ec2e3c39f7412340929830.ctex"]
 
 [params]
 

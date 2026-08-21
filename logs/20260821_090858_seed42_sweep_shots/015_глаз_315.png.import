@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccxgyofru8fug"
-path="res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"
+uid="uid://by5t1x0cl4nlr"
+path="res://.godot/imported/015_глаз_315.png-a4e52bcc3998a5f378be22e8290afe5a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://logs/Снимок 1.PNG"
-dest_files=["res://.godot/imported/Снимок 1.PNG-bf6bf9aae48221f70fdbb52af9a4b1e9.ctex"]
+source_file="res://logs/20260821_090858_seed42_sweep_shots/015_глаз_315.png"
+dest_files=["res://.godot/imported/015_глаз_315.png-a4e52bcc3998a5f378be22e8290afe5a.ctex"]
 
 [params]
 
