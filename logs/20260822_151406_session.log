@@ -1,7 +1,7 @@
-﻿ColoringBook — журнал запуска 2026-08-22 14:19:55
+﻿ColoringBook — журнал запуска 2026-08-22 15:14:06
 [bootstrap] каталог логов: D:/Godot/ColoringBook/logs
 PlantCatalog ready: 9 variants x kinds
-=== ColoringBook Bootstrap | BUILD STAMP: 2026-08-22-V394 (поле поднятия из линий разлома; настройки разломов в журнал)
+=== ColoringBook Bootstrap | BUILD STAMP: 2026-08-22-V395 (мера долга была испорчена нулевой нормой: 2 000 002 вместо 2.5)
 [shaders] res://assets/shaders/terrain.gdshader — ок
 [shaders] res://assets/shaders/water.gdshader — ок
 [shaders] res://assets/shaders/foliage.gdshader — ок
@@ -12,12 +12,12 @@ PlantCatalog ready: 9 variants x kinds
 [bootstrap] MaxFps=60, VSync=Disabled
 [устройство] стол, поле полное, уровень при запуске, журнал в res://logs, ядер 8
 [bootstrap] StartupMode = Level
-[разведка] поле 241x241 за 20009 мс, место (45,6, -16,8) км от середины территории
+[разведка] поле 241x241 за 19472 мс, место (45,6, -16,8) км от середины территории
 [нрав] поднятие 8,7 м (разброс 1,01, период 9 км), врез 22, осыпание 0,003, итераций 905
 [разломы] 9 линий на 100 км, полоса 6,0 км, излом 0,50, разброс направлений 0,60, перекос 1,60, искажение области 0,30
-[фон-эрозия] поле 961x961 за 310196 мс
+[фон-эрозия] поле 961x961 за 293861 мс
 [высоты] размах поля 4953 м, дно 800 м, верх 5753 м
-[плитка] 5 км, ячейка 30 м, за 6301 мс
+[плитка] 5 км, ячейка 30 м, за 6085 мс
 [высоты] p10 1657 м, медиана 2577, p90 3749, разница p10-p90 2092 м (в Альпах 2000-2500)
 [вода] 2,3% площади (норма Альп 1.5-6)
 [озёра] 5 крупнее 0.05 км², крупнейшее 100,5 км²
@@ -126,10 +126,10 @@ PlantCatalog ready: 9 variants x kinds
   5,7    |     2251 |  26,0 |   2,5 |    0 |    1,5
   6,7    |     1935 |  31,8 |   0,0 |    0 |    1,9
   7,7    |     2599 |  23,3 |   0,0 |    0 |    0,4
-[маршруты] окно 20 км: опор 88, рёбер 84, сеть 172,0 км, за 2994 мс
+[маршруты] окно 20 км: опор 88, рёбер 84, сеть 172,0 км, за 2848 мс
 [пояса] лес 0,310, редколесье 0,358, альпика 0,417, осыпь 0,476, скала 0,549, снег 0,618
 [пояса] пределы выборки 128,0..623,4 ед (800..5753 м), смещение -48,0 ед
-[кольца] построено 1 за 8238 мс: высоты и покров 7773 мс, прочее 465 мс
+[кольца] построено 1 за 7837 мс: высоты и покров 7387 мс, прочее 451 мс
 [фон-материал] шейдер рельефа, размах высот 80,0..575,3 ед
 [рельеф вокруг игрока] средний уклон 10,2°, p95 30,4°, перепад 4692 м, круче 35° 3%, доля дна 31%, шпилей 219  <-- ПОЛОГО  <-- ШПИЛИ
 [рельеф вся территория] средний уклон 10,2°, p95 30,4°, перепад 4692 м, круче 35° 3%, доля дна 31%, шпилей 219  <-- ПОЛОГО  <-- ШПИЛИ
@@ -142,30 +142,24 @@ PlantCatalog ready: 9 variants x kinds
 [дыра] половины колец, км: 0:57,6
 [покров] по площади (13271 км²): Water 2,3%, Grassland 28,9%, Forest 15,3%, Shrubland 16,2%, Alpine 9,9%, Scree 8,7%, Rock 12,3%, Snow 6,4%
 [вода] ячеек покрова по кольцам: 120м:21270
-[дренаж] сетка 961, область 115 км, 1832 мс
-[рельеф-отчёт] D:/Godot/ColoringBook/logs\20260822_142606_terrain.json
-[рельеф-сетки] D:/Godot/ColoringBook/logs\20260822_142606_terrain.bin
-[журнал] D:/Godot/ColoringBook/logs\20260822_141955_session.log
+[дренаж] сетка 961, область 115 км, 1589 мс
+[рельеф-отчёт] D:/Godot/ColoringBook/logs\20260822_151958_terrain.json
+[рельеф-сетки] D:/Godot/ColoringBook/logs\20260822_151958_terrain.bin
+[журнал] D:/Godot/ColoringBook/logs\20260822_151406_session.log
 [фон-щели] одиночных рёбер 3840, из них на внешнем крае есть; радиусы от 5760 до 5760 ед (границы колец: 5760)
 [фон-меш] рельеф: граней вверх 1843200, вниз 0 (0,0%), вырожденных 0 | расхождение на стыке колец 0,0 м
 [фон-пандус] наибольший уклон переходной полосы 0,0°, ширина полосы 8 ячеек (960..480 м)
 [фон] колец 1, шаг 120..120 м, область 115 км, четырёхугольников 921600, треугольников 1843200
 [растительность] ОТКЛЮЧЕНА (LevelView3D.VegetationOn = false)
-[время] рельеф и меш: 370060 мс
+[время] рельеф и меш: 351983 мс
 --- Seed 42 | Season Summer ---
 уровень из колец, сид 42
 [камера] обзор на (693, -612), наклон 35°, удаление 76,0 км
 [bootstrap] mode=Level (main scene). P = switch to plant gallery.
 [bootstrap] galleryActive=False regions=0 | terrain: mesh=null visible=True | rivers: mesh=null visible=True | water: mesh=null visible=True | vegRoot: children=0 visible=True | galleryRoot=none
-[PERF] fps=60,0 frame=3,82ms draw=7 prim=1844376 obj=589 vram=386,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=3,04ms draw=7 prim=1844372 obj=587 vram=386,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=2,36ms draw=7 prim=1844372 obj=587 vram=386,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=2,54ms draw=7 prim=1844372 obj=587 vram=386,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=2,92ms draw=7 prim=1844372 obj=587 vram=386,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=1,70ms draw=7 prim=1844372 obj=587 vram=386,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=2,14ms draw=7 prim=1844372 obj=587 vram=386,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=61,0 frame=2,44ms draw=7 prim=1844376 obj=589 vram=386,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
 [обход] 8 поз: весь уровень, четверти, глаз из (693, -612), шар
-[telemetry] обход уровня записан: D:/Godot/ColoringBook/logs\20260822_112632_seed42_sweep.json
+[telemetry] обход уровня записан: D:/Godot/ColoringBook/logs\20260822_122005_seed42_sweep.json
 [обход] 8 поз: весь уровень, четверти, глаз из (693, -612), шар
 [кадр 000] весь уровень сверху: камера (0,0, 0,0) км, над землёй 76818 м, взгляд вниз 100%, охват 117,9 км
 [кадр] весь уровень сверху: неба 54%, пятен 6, крупнейшее 57%, ПУСТОТЫ 48% (в нижней половине 48%)
@@ -181,10 +175,10 @@ PlantCatalog ready: 9 variants x kinds
 [sketch] обход весь уровень косо 120°: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
 [кадр 003] весь уровень косо 240°: камера (43,2, 25,0) км, над землёй 35811 м, взгляд вниз 62%, охват 55,0 км
 [кадр] весь уровень косо 240°: неба 49%, пятен 4, крупнейшее 56%, ПУСТОТЫ 39% (в нижней половине 4%)
+[PERF] fps=6,0 frame=1402,34ms draw=8 prim=3687584 obj=594 vram=423,6MB tex=112,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
 [sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
 [sketch] обход весь уровень косо 240°: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
 [кадр 004] четверть 1: камера (-25,3, -51,8) км, над землёй 18605 м, взгляд вниз 57%, охват 28,6 км
-[PERF] fps=3,0 frame=412,17ms draw=7 prim=1844380 obj=591 vram=408,0MB tex=96,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
 [кадр] четверть 1: неба 31%, пятен 14, крупнейшее 29%, ПУСТОТЫ 29% (в нижней половине 2%)
 [sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
 [sketch] обход четверть 1: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
@@ -218,7 +212,7 @@ PlantCatalog ready: 9 variants x kinds
 [sketch] обход четверть 1,1 сверху: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
 [кадр 012] клетка 0,0 из 3x3: камера (-38,4, -38,4) км, над землёй 27524 м, взгляд вниз 100%, охват 42,2 км
 [кадр] клетка 0,0 из 3x3: неба 32%, пятен 8, крупнейшее 31%, ПУСТОТЫ 26% (в нижней половине 24%)
-[PERF] fps=4,0 frame=1256,77ms draw=7 prim=1844376 obj=589 vram=423,6MB tex=112,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=4,0 frame=1611,20ms draw=7 prim=1844384 obj=593 vram=423,6MB tex=112,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
 [sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
 [sketch] обход клетка 0,0 из 3x3: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
 [кадр 013] клетка 1,0 из 3x3: камера (0,0, -38,4) км, над землёй 27524 м, взгляд вниз 100%, охват 42,2 км
@@ -255,7 +249,7 @@ PlantCatalog ready: 9 variants x kinds
 [sketch] обход клетка 2,2 из 3x3: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
 [кадр 021] озеро 1,2 км²: камера (-0,0, -26,8) км, над землёй 4645 м, взгляд вниз 100%, охват 7,1 км
 [кадр] озеро 1,2 км²: неба 30%, пятен 8, крупнейшее 28%, ПУСТОТЫ 0% (в нижней половине 0%)
-[PERF] fps=6,0 frame=1300,78ms draw=8 prim=3687584 obj=594 vram=425,4MB tex=112,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=6,0 frame=1307,63ms draw=8 prim=3687584 obj=594 vram=425,3MB tex=112,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
 [sketch] шаблон: областей 10, из них удобных без увеличения 4, крупных заливок 2, непригодных 0; самая большая занимает 82% кадра, чернил 1,9%
 [sketch] обход озеро 1,2 км²: шаблон: областей 10, из них удобных без увеличения 4, крупных заливок 2, непригодных 0; самая большая занимает 82% кадра, чернил 1,9%
 [кадр 022] озеро 100,5 км²: камера (15,4, -1,6) км, над землёй 37580 м, взгляд вниз 100%, охват 57,7 км
@@ -270,17 +264,8 @@ PlantCatalog ready: 9 variants x kinds
 [кадр] озеро 31,4 км²: неба 10%, пятен 12, крупнейшее 14%, ПУСТОТЫ 9% (в нижней половине 0%)
 [sketch] шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
 [sketch] обход озеро 31,4 км²: шаблон: областей 1, из них удобных без увеличения 0, крупных заливок 1, непригодных 0; самая большая занимает 100% кадра, чернил 0,0%
-[telemetry] снимков сохранено: 25 в D:/Godot/ColoringBook/logs\20260822_112632_seed42_sweep_shots
-[PERF] fps=60,0 frame=2,19ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=2,81ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=2,16ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=2,04ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=4,02ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=3,42ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=3,36ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=3,04ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=2,91ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=3,15ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=3,99ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=4,04ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
-[PERF] fps=60,0 frame=3,21ms draw=7 prim=1844372 obj=587 vram=393,9MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[telemetry] снимков сохранено: 25 в D:/Godot/ColoringBook/logs\20260822_122005_seed42_sweep_shots
+[PERF] fps=60,0 frame=4,36ms draw=7 prim=1844376 obj=589 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,35ms draw=7 prim=1844376 obj=589 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=2,50ms draw=7 prim=1844376 obj=589 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
+[PERF] fps=60,0 frame=4,56ms draw=7 prim=1844376 obj=589 vram=392,6MB tex=81,8MB | veg: full=0 lod1=0 hide=0 instVis=0 instHide=0 chunks=0
